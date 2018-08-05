@@ -15,6 +15,8 @@
 #define ACTION_SELECT  3
 #define ACTION_BACK    4
 
+// Predeclare Arduino class
+const __FlashStringHelper;
 
 class qMenuSystem
 {
@@ -24,6 +26,7 @@ class qMenuSystem
     int ProcessMenu(int action);
     void ShowMenu();
     void MessageBox(const char text[]) { qmd.MessageBox(text); };
+    void MessageBox(const __FlashStringHelper * flashString) { qmd.MessageBox(flashString); };
     
     const char ** CurrentMenu;
   private:
