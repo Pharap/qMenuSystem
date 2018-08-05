@@ -23,25 +23,25 @@ const char itmItem5[] PROGMEM = "Item 5";
 ////////////////////////////////////////////////////////////////
 // menus - first item is menu title and it does not count toward cnt
 
-PROGMEM const char * mnuRoot[] = {
+const char * mnuRoot[] PROGMEM = {
   itmRoot,
   itmSubmenu1,itmSubmenu2,itmSubmenu3,itmMessageBox};
-PROGMEM const int cntRoot = 4;
+const int cntRoot PROGMEM = 4;
 
-PROGMEM const char * mnuSubmenu1[] = {
+const char * mnuSubmenu1[] PROGMEM = {
   itmSubmenu1,
   itmItem1,itmItem2,itmItem3,itmItem4,itmItem5,itmBack};
-PROGMEM const int cntSubmenu1 = 6;
+const int cntSubmenu1 PROGMEM = 6;
 
-PROGMEM const char * mnuSubmenu2[] = {
+const char * mnuSubmenu2[] PROGMEM = {
   itmSubmenu2,
   itmOn,itmOff,itmBack};
-PROGMEM const int cntSubmenu2 = 3;
+const int cntSubmenu2 PROGMEM = 3;
 
-PROGMEM const char * mnuSubmenu3[] = {
+const char * mnuSubmenu3[] PROGMEM = {
   itmSubmenu3,
   itmEnabled,itmDisabled,itmBack};
-PROGMEM const int cntSubmenu3 = 3;
+const int cntSubmenu3 PROGMEM = 3;
 
 
 
