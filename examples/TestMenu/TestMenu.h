@@ -1,4 +1,4 @@
-// required for "const char" and "PROGMEM"
+// required for "PROGMEM"
 #include <avr/pgmspace.h>
 
 // texts for menus
